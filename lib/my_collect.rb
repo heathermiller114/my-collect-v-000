@@ -1,7 +1,7 @@
 def my_collect(list)
   counter = 0
   caps_lang = []
-  while list.length > 0
+  while list.length > counter
     caps_lang << yield(list[counter])
     counter += 1
   end
