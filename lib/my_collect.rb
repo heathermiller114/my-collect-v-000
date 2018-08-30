@@ -3,5 +3,8 @@ def my_collect(array)
   caps_lang = []
   while array.length > 0
     caps_lang << yield(array[counter])
+    counter += 1
+  end
+  caps_lang
 end
 
