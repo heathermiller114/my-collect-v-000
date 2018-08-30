@@ -1,7 +1,7 @@
-def my_collect(array)
+def my_collect(list)
   counter = 0
   caps_lang = []
-  while array.length > 0
+  while list.length > 0
     caps_lang << yield(array[counter])
     counter += 1
   end
