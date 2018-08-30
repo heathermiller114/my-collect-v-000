@@ -1,10 +1,10 @@
 def my_collect(list)
   counter = 0
-  caps_lang = []
+  collection = []
   while list.length > counter
-    caps_lang << yield(list[counter])
+    collection << yield(list[counter])
     counter += 1
   end
-  caps_lang
+  collection
 end
 
