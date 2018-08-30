@@ -8,4 +8,4 @@ def my_collect(list)
   caps_lang
 end
 
-my_collect("python") { |language| language.upcase }
+my_collect(list) { |language| language.upcase }
