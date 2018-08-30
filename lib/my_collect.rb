@@ -8,4 +8,4 @@ def my_collect(array)
   caps_lang
 end
 
-my_collect(array) { 
+my_collect(array) { |language|
